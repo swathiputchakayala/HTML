@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mutiple and Single select</title>
+  </head>
+  <body>
+    <h1>Mutiple and Single select</h1>
+    <hr />
+    <br />
+    <!--Single Select-->
+    <div>
+      <div>
+        <h2>Single Select</h2>
+        <div>
+          <label
+            >Select your best programming languages<u
+              >Selected Attribute is not used</u
+            ></label
+          >
+        </div>
+        <select name="programmingLanguages">
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="SQL">SQL</option>
+          <option value="ReactJs">ReactJs</option>
+          <option value="NodeJs">NodeJs</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <div>
+          <label
+            >Select your best programming languages
+            <u>Selected Attribute is used</u></label
+          >
+        </div>
+        <!--Selected attribute-->
+        <!-- selected Attribute is used for perticualar option vale to be displayed in the slect option-->
+        <select name="programmingLanguages">
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="SQL">SQL</option>
+          <option value="ReactJs">ReactJs</option>
+          <option selected value="NodeJs">NodeJs</option>
+        </select>
+      </div>
+    </div>
+    <br />
+    <!--Multiple Select-->
+    <div>
+      <h2>Multiple Select</h2>
+      <div>
+        <div><label>Select your best programming languages</label></div>
+        <select name="programmingLanguages" multiple>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="SQL">SQL</option>
+          <option value="ReactJs">ReactJs</option>
+          <option value="ReactJs">ReactJs</option>
+        </select>
+        <br />
+      </div>
+    </div>
+    <br />
+  </body>
+</html>

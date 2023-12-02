@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forms Attribute</title>
+  </head>
+  <body>
+    <h1><u>Forms Attribute</u></h1>
+    <hr />
+    <form>
+      <!-- Type Attribute-->
+      <div><label>Enter Full Name</label> <input type="text" /></div>
+      <br />
+      <!--Name Attribute-->
+      <div>
+        <label>Enter Password</label> <input type="password" name="12345" />
+      </div>
+      <br />
+      <!--Value Attribute-->
+      <div>
+        <label>Enter Password</label>
+        <input type="number" name="12345" value="200" />
+      </div>
+      <br />
+      <!--CheckBox Attribute-->
+      <div>
+        <label>checkbox</label>
+        <input type="checkbox" />
+      </div>
+      <br />
+      <!--Required Attribute-->
+      <div>
+        <label>Required</label>
+        <input type="number" required />
+      </div>
+      <br />
+      <!--Place Holder-->
+      <div>
+        <p>Place Holder Attribute</p>
+        <br />
+        <input type="number" required placeholder="Enter Your Age" />
+      </div>
+      <br />
+      <!--Min and Max Attribute-->
+      <div>
+        <label>Min and Max Attribute</label>
+        <input
+          type="number"
+          min="10"
+          max="100"
+        /><!--Oly works when you submit the value -->
+      </div>
+      <br />
+      <!--Step Attribute-->
+      <div>
+        <label>Step</label>
+        <input
+          type="number"
+          step="2"
+        /><!--only moves in step table means so 0,2,4,6,8...-->
+      </div>
+      <!--Color Attribute-->
+      <div>
+        <label>Color</label>
+        <input type="color" />
+      </div>
+      <br />
+      <!--Date Attribute-->
+      <div>
+        <label>Date</label>
+        <input type="date" />
+      </div>
+      <br />
+      <!--FIle Attribute-->
+      <div>
+        <label>File</label>
+        <input type="file" />
+      </div>
+      <br />
+      <input type="button" value="submit" />
+    </form>
+  </body>
+</html>
